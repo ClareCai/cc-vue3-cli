@@ -1,0 +1,74 @@
+.el-dialog.is-fullscreen {
+  display: flex;
+  flex-direction: column;
+
+  .el-dialog__body {
+    flex: 1;
+  }
+}
+
+.el-card {
+  display: flex;
+  flex-direction: column;
+
+  .el-card__body {
+    flex: 1;
+  }
+}
+
+.el-dialog {
+  border-radius: 8px;
+
+  .el-dialog__header {
+    display: flex;
+    align-items: center;
+  }
+
+  .el-dialog__body {
+    color: var(--vt-c-text);
+  }
+}
+
+.el-select {
+  .el-select__tags {
+    .el-select-tags-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+// 面包屑样式
+.page-container {
+  .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
+    font-weight: bold;
+    color: var(--el-color-primary);
+    cursor: pointer;
+  }
+
+  .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+    font-weight: bold;
+    color: #004474;
+  }
+}
+// 分页器样式
+.el-pagination {
+  .btn-prev,
+  .btn-next,
+  .number {
+    margin: 0 4px;
+    border-radius: var(--el-border-radius-base);
+    box-shadow: 0 0 0 1px var(--el-border-color) inset;
+  }
+
+  .number.is-active {
+    box-shadow: 0 0 0 1px var(--el-pagination-hover-color) inset;
+  }
+
+  .more {
+    background-color: transparent;
+  }
+}
+
+.el-form .el-form-item--large {
+  margin-bottom: 24px;
+}

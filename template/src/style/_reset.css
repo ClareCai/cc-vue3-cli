@@ -1,0 +1,173 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: '微软雅黑', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 12px;
+  color: #333;
+  word-break: break-word;
+  background-color: #fff;
+  word-spacing: 1px;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+iframe {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+img,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: #4c96f3;
+    text-decoration: none;
+  }
+}
+
+a,
+label,
+button,
+input,
+select {
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+}
+
+input,
+select,
+button {
+  vertical-align: baseline;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+select {
+  appearance: none;
+}
+
+button::-moz-focus-inner,
+input,
+input[type='reset']::-moz-focus-inner,
+input[type='button']::-moz-focus-inner,
+input[type='submit']::-moz-focus-inner,
+input[type='file'] > input[type='button']::-moz-focus-inner {
+  border: none;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  vertical-align: middle;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none !important;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px white inset;
+}
+
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='password'] {
+  box-sizing: content-box;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 100%;
+  appearance: none; /* 去除系统默认的样式 */
+}
+
+input:disabled,
+input[disabled] {
+  color: #969799;
+  opacity: 1;
+  -webkit-text-fill-color: #969799;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+:focus {
+  outline: none !important;
+}
